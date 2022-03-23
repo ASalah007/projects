@@ -1,0 +1,380 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+[class *= "col-"]{
+  width: 100%; /* for mobile devices only*/
+  float: left;
+  padding: 15px;
+}
+
+/*========================= header section===============*/
+
+header{background-color: #08192d;}
+.site-logo img{max-width: 100%;}
+.main-menu{display:none;}
+.main-menu li{
+  float: left;
+  padding: 0;
+  list-style: none;
+}
+.main-menu a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-size: 18px;
+  padding: 10px;
+}
+.main-menu a:hover{color: #fc0254;}
+.header-right{display: none;}
+
+.header-right a{
+  text-decoration: none;
+  color: white;
+  float: left;
+  padding: 12px;
+  width: 100%;
+  display: block;
+}
+#help{border-top: 1px solid white;}
+#help:hover{color:#fc0254;}
+.header-right a:hover{color: #fc0254;}
+
+#menu{
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  background-color: #08192d;
+  border: 2px solid #fc0254;
+  color: white;
+  padding: 5px;
+  font-size: 22px;
+}
+#menu:focus{
+  border: 2px solid #fc0254;
+  outline: none;
+  box-shadow: none;
+}
+
+/*====================hero-section style==================== */
+
+.hero-section{
+  background-color: #0a183d;
+
+}
+.hero-left{
+  overflow:hidden;
+}
+.hero-left h1{
+  color: white;
+  margin-top: 35px;
+  font-size: 55px;
+}
+.hero-left p{
+  color: white;
+  margin: 25px 5px;
+  font-size: 20px;
+}
+.hero-left a{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 35px;
+  margin: 5px;
+}
+.hero-right{
+
+}
+.hero-right img{
+  max-width: 100%;
+}
+/*===================== unlimites access section ==============*/
+.heading{
+  color: #0a183d;
+  font-size: 60px;
+  padding: 10px 15px;
+  padding-top: 80px;
+  font-weight: 700;
+}
+.unl-acc p{
+  color:#6a7080;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 500;
+  padding: 15px;
+  padding-top: 80px;
+}
+
+.unl-acc a{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 20px 45px;
+  border-radius: 35px;
+
+}
+
+/*=========== how it works section =====================*/
+.how{
+  background-color: #0a183d;
+}
+.how .heading{
+  padding: 80px 20px 25px;
+  color: white;
+}
+.how a{
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  background-color: #fc0254;
+  border-radius: 100%;
+  padding: 12px;
+}
+.how img{
+  max-width: 100%;
+}
+.how h2{
+  color: white;
+  margin: 25px 0;
+}
+.how p {
+  color: #6a7080;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 600;
+}
+/*=========== concept section ==================*/
+.concept h1{font-size: 70px}
+.concept p{
+  color: #6a7080;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 600;
+  margin: 80px 0;
+}
+
+.concept .card img{
+  border-radius: 25px;
+}
+.concept .card{
+  text-align: center;
+}
+.concept .card h3{
+  text-align: center;
+}
+
+/*===========subscription==============================*/
+.subscription{
+  background-color: #0a183d;
+}
+.subscription h1{
+  color: white;
+  font-size: 55px;
+  font-weight: 500;
+  margin: 80px 0 10px;
+}
+
+.subscription h3{
+  color: #fc0254;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.subscription p{
+  color: #6a7080;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 600;
+  margin: 35px 0;
+}
+
+.subscription a{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 20px 45px;
+  border-radius: 35px;
+  background-color: #fc0254;
+}
+
+.subscription-right .list{
+  background-color: #1c294a;
+  border-radius: 40px;
+  padding: 50px 30px;
+  margin-top: 15px;
+}
+.subscription-right ul{
+    list-style: none;
+}
+
+.subscription-right li{
+  color: white;
+  font-size: 20px;
+  margin: 30px 0 ;
+}
+.subscription-right li img{
+  margin-right: 30px;
+}
+
+/*============= premium section ===============================*/
+
+.premium p{
+  color: #6a7080;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 600;
+  margin: 35px 0;
+}
+.premium .card{
+  text-align: center;
+}
+.premium .card img{
+  border-radius: 100%;
+}
+.premium .card h3{
+  color:  #0a183d;
+  font-size: 25px;
+}
+.premium .card p{
+    margin:0;
+    font-weight: 300;
+}
+
+/*===========FOOTER==========================*/
+
+footer{
+  background-color:  #0a183d;
+}
+
+footer h3{
+  color: white;
+  margin: 15px 0;
+  font-weight: 600;
+  font-size: 15px;
+}
+footer ul{
+  list-style: none;
+
+}
+footer ul a{
+  color: #6a7080;
+  text-decoration: none;
+  line-height: 2;
+  font-weight: 100;
+}
+footer p{
+  color: #6a7080;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 11px;
+}
+.footer-right p{margin: 15px 0 30px;}
+.footer-right a{padding-right: 35px; color: #6a7080;}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media only screen and (min-width: 600px) { /*tablets*/
+  .col-s-1{width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+
+  #menu{
+  font-size: 28px;
+
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+  /*=====header adjustement ================================== */
+  header{padding: 20px;}
+  .main-menu{display: block;}
+  .header-right{display: block;}
+  #menu{display: none;}
+  .site-logo{padding-top: 25px; padding-bottom: 25px; padding-left: 30px;}
+  #help{border: none;border-right: 1px solid white; color: gray;}
+  .header-right a{width: auto; display:inline;}
+  #create{color: #fc0254;}
+
+  /*=====hero adjustement===================================== */
+  .hero-section{
+      padding: 100px 50px;
+  }
+
+  /*=====unlimited access adjustement===================*/
+
+  .unl-acc{
+    padding: 80px;
+  }
+
+  /*====== how it works adjustements ================================*/
+
+  .how{
+    padding: 80px;
+  }
+  .how .heading{
+    padding: 0 0 30px;
+  }
+
+  /*========= concept adjustements ============================*/
+
+  .concept{
+    padding: 70px;
+  }
+
+  /*===============subscription adjustments ========================*/
+
+  .subscription{
+    padding: 20px 80px;
+  }
+  .subscription-right{
+    margin-top: 80px
+  }
+  .subscription-right ul{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /*===========premium adjustments ===============================*/
+  .premium p{
+    margin-top: 80px;
+  }
+  .premium{
+    padding: 40px 80px;
+  }
+
+  /*===========footer adjustements =================================*/
+  footer{
+    padding: 80px;
+  }
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logo.png" type="image/svg">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="fontawesome/css/brands.min.css">
+    <link rel="stylesheet" href="fontawesome/css/solid.min.css">
+    <title> العسلنجى</title>
+    <script>
+        function dismenu(){
+          if (document.getElementById("main-menu").style.display == "block")
+            document.getElementById("main-menu").style.display = "none";
+          else
+            document.getElementById("main-menu").style.display = "block";
+        }
+    </script>
+  </head>
+  <body>
+
+    <header class="row">
+      <div class="logo col-4">
+        <a href="#"><img src="images/logo.png" alt="bee"></a>
+        <a href="#" id="logo-name">العسلنجى</a>
+        <button type="button" name="menu" id="menu" onclick="dismenu()"><i class="fas fa-bars"></i></button>
+      </div>
+      <div class="col-8 nav" id="main-menu">
+        <ul>
+          <li><a href="#">الصفحة الرئيسية</a></li>
+          <li><a href="#">اطلب منتج</a></li>
+          <li><a href="#">الاسعار</a></li>
+          <li><a href="#">حول العسلنجى</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="row main">
+      <div class="col-3">
+      </div>
+      <div class="col-6 main-div">
+      <a href="#">اطلب عسل</a>
+      <a href="#products">جميع منتجاتنا</a>
+      </div>
+      <div class="col-3">
+      </div>
+    </section>
+
+    <section class="row info">
+      <h1>فوائد العسل</h1>
+      <div class="card col-6 col-s-6">
+        <img src="images/teeth.jpg" alt="">
+        <h3>الحفاظ على الأسنان وحماية اللثة</h3>
+      </div>
+
+      <div class="card col-6 col-s-6">
+        <img src="images/apple.jpg" alt="">
+        <h3>خفض مستوى الدهنيات في الجسم</h3>
+      </div>
+
+      <div class="card col-6 col-s-6">
+        <img src="images/cough.jpg" alt="">
+        <h3>علاج السعال</h3>
+      </div>
+
+      <div class="card col-6 col-s-6">
+        <img src="images/virus.jpg" alt="">
+        <h3>مضاد للجراثيم و الميكروبات</h3>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <h1>منتجاتنا</h1>
+      <div class="product row">
+        <div class="right col-6 col-s-6">
+          <h3>١- عسل بالمكسرات</h3>
+          <h4>فوائد العسل بالمكسرات</h4>
+          <ul>
+            <li>١. غني بفيتامين { أ ـ ب }</li>
+            <li>٢. مفيد للمرضعات و الحوامل و الرياضيين</li>
+            <li>٣. مفيد لمرضى الاعصاب</li>
+            <li>٤. مفيد لتقوية النخاع الشوكي و تقوية النظر</li>
+          </ul>
+        </div>
+        <div class="left col-6 col-s-6">
+          <img src="images/product1.jpg" alt="">
+          <h3>سعر الكيلو: ١١٠ جنيها</h3>
+        </div>
+      </div>
+
+      <div class="product row">
+        <div class="right col-6 col-s-6">
+          <h3>٢- عسل زهرة البرسيم</h3>
+          <h4>فوائد عسل البرسيم</h4>
+          <ul>
+            <li>١. غني بفيتامين { أ ـ ب }</li>
+            <li>٢. مفيد للمرضعات و الحوامل و الرياضيين</li>
+            <li>٣. مفيد لمرضى الاعصاب</li>
+            <li>٤. مفيد لتقوية النخاع الشوكي و تقوية النظر</li>
+          </ul>
+        </div>
+        <div class="left col-6 col-s-6">
+          <img src="images/product2.jpg" alt="">
+          <h3>سعر الكيلو: ٦٠ جنيها</h3>
+        </div>
+      </div>
+
+      <div class="product row">
+        <div class="right col-6 col-s-6">
+          <h3>٣- عسل حبة البركة</h3>
+          <h4>فوائد عسل حبة البركة</h4>
+          <ul>
+            <li>١. غني بفيتامين { أ ـ ب }</li>
+            <li>٢. مفيد للمرضعات و الحوامل و الرياضيين</li>
+            <li>٣. مفيد لمرضى الاعصاب</li>
+            <li>٤. مفيد لتقوية النخاع الشوكي و تقوية النظر</li>
+          </ul>
+        </div>
+        <div class="left col-6 col-s-6">
+          <img src="images/product3.jpg" alt="">
+          <h3>سعر الكيلو: ٧٥ جنيها</h3>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+        <h4>العسلنجى</h4>
+        <p>COPYRIGHT ©2021 ALL RIGHTS RESERVED | THIS WEBSITE IS MADE WITH LOVE BY AHMED SALAH</p>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+    </footer>
+  </body>
+</html>
