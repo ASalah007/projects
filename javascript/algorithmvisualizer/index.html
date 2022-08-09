@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div id="stage">
+    </div>
+    <nav>
+
+      <div class="controls">
+        <form action="#" id="trees">
+          <label for="par">Parameter</label>
+          <input type="text">
+          
+          <button id="del">delete</button>
+          <button id="ins">insert</button>
+          <button id="find">find</button>
+        </form>
+
+        <form action="#" id="graphAlgorithms">
+          <label for="maxDegrees">MAX DEGREES:
+            <input type="number" min=2 id="maxDegrees" name="maxDegrees">
+          </label>
+
+          <label for="nodes">NO. of NODES:
+            <input type="number" min=3 id="nodes" name="nodes">
+          </label>
+
+          <label for="startNode" class="dfs bfs">Start Node:
+            <input type="number" min=2 max=12 id="startNode" name="startNode">
+          </label>
+
+          <label for="endNode" class="dfs bfs">End Node:
+            <input type="number" min=2 max=12 id="endNode" name="endNode">
+          </label>
+
+        </form>
+
+          
+        <button id="apply">Apply Changes</button>
+        <button>Prev</button>
+        <button>Next</button>
+      </div>
+
+      <div>
+        <div class="listHead">
+          <a href="#">Graph Algorithms</a>
+        </div>
+        <div class="listItems" id="graph">
+          <a href="#">DFS</a>
+          <a href="#">BFS</a>
+
+          
+        </div>
+      </div>
+
+      <div>
+        <div class="listHead">
+          <a href="#">Greedy Algorithms</a>
+        </div>
+        <div class="listItems">
+          <a href="#">Item1</a>
+          <a href="#">Item2</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="listHead">
+          <a href="#">Divide and conqure</a>
+        </div>
+        <div class="listItems">
+          <a href="#">Item1</a>
+          <a href="#">Item2</a>
+        </div>
+      </div>
+
+    </nav>
+
+  </body>
+  <script src="scripts/main.js"></script>
+  <script src="scripts/dynamic.js"></script>
+  <script src="scripts/graph.js"></script>
+  <script src="scripts/dfs.js" ></script>
+
+</html>

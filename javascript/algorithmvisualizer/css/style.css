@@ -1,0 +1,118 @@
+html {
+  font-size: 10px;
+  
+}
+* {
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 2rem;
+}
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  border: 1px solid black;
+  float: right;
+  height: 100%;
+  min-height: 100vh;
+  background-color: #E74C3C;
+  color: #EEEEEE;
+  width: 20%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  display: block;
+  padding: 1rem;
+}
+.listItems a{
+  padding-left: 4rem;
+}
+a:hover {
+  background-color: #E75C3C;
+}
+
+.listItems {
+  display: none;
+}
+
+
+#stage {
+  height: 100%;
+  min-height: 100vh;
+  border: 1px solid black;
+  float: left;
+  width: 80%;
+  position: fixed;
+}
+
+.controls {
+  text-align: center;
+  margin: 10rem 0;
+}
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	outline: inherit;
+}
+button:hover {
+  background-color: #E75C3C;
+	cursor: pointer;
+}
+button{
+  width: 40%;
+  display: inline-block;
+  padding: .5rem;
+  background-color: none;
+}
+
+form {
+  margin-bottom: 10rem;
+}
+
+#trees {
+  display: none;
+}
+
+label {
+  display: block;
+  text-align: center;
+}
+  
+.gridBlock {
+  position: relative;
+  float: left;
+}
+
+.ansGraph {
+  border: 3px solid black;
+  border-radius: 50%;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+}
+
+.ansGraph:hover {
+  background-color: #DDD;
+  cursor: pointer;
+}
+
+.bfs, .dfs {
+  display: none;
+}
+
